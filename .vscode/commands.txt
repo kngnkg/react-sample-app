@@ -1,0 +1,5 @@
+##プロジェクト作成
+$ npx create-react-app --template typescript react-sample-app
+
+## Chakra UI インストール
+$ npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
