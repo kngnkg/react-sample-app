@@ -1,5 +1,10 @@
 import { FC, memo } from "react"
+import { HeaderLayout } from "./templates/HeaderLayout";
 
 export const Home: FC = memo(() => {
-    return <p>HOMEページ</p>
+    return (
+        <HeaderLayout>
+            <p>HOMEページ</p>
+        </HeaderLayout>
+    );
 });

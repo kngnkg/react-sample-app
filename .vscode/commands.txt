@@ -6,3 +6,6 @@ $ npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
 
 ##@types/react-router-domとreact-router-domをインストール
 $ npm install react-router-dom @types/react-router-dom
+
+## Chakra UI Iconsをインストール
+$ npm i @chakra-ui/icons

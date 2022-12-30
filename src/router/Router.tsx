@@ -1,5 +1,5 @@
 import { FC, memo } from "react";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 
 import { Home } from "../components/pages/Home";
 import { Login } from "../components/pages/Login";
@@ -9,6 +9,7 @@ import { UserManagement } from "../components/pages/UserManagement";
 
 export const Router: FC = memo(() => {
     return (
+        <BrowserRouter>
         <Routes>
             <Route path="/" element={<Login/>}/>
             <Route path="/home">
@@ -18,5 +19,6 @@ export const Router: FC = memo(() => {
             </Route>
             <Route path="*" element={<Page404/>}/>
         </Routes>
+        </BrowserRouter>
     );
 });
