@@ -9,3 +9,6 @@ $ npm install react-router-dom @types/react-router-dom
 
 ## Chakra UI Iconsをインストール
 $ npm i @chakra-ui/icons
+
+##axiosをインストール
+$ npm install axios
