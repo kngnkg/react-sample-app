@@ -1,0 +1,11 @@
+services:
+  app:
+    container_name: sample-react
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+    tty: true
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - "3000:3000"

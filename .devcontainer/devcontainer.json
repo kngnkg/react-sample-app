@@ -1,0 +1,20 @@
+{
+    "name": "react-sample",
+    "dockerComposeFile": ["../docker-compose.yml"],
+    "service": "app" ,
+    "workspaceFolder": "/usr/src/app",
+    "settings": {
+      "terminal.integrated.defaultProfile.linux": "bash",
+	  "terminal.integrated.profiles.linux": {
+		"bash": {
+			"path": "/bin/bash",
+			"icon": "terminal-bash"
+		}
+	  }
+    },
+    "extensions": [
+		"xabikos.JavaScriptSnippets",
+		"oderwat.indent-rainbow",
+		"eamodio.gitlens"
+	]
+  }
