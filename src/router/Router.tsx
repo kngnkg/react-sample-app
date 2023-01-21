@@ -1,5 +1,6 @@
 import { FC, memo } from "react";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
+import { HealthCheck } from "../components/pages/HealthCheck";
 
 import { Home } from "../components/pages/Home";
 import { Login } from "../components/pages/Login";
@@ -17,6 +18,7 @@ export const Router: FC = memo(() => {
                 <Route path="user_management" element={<UserManagement/>}/>
                 <Route path="setting" element={<Setting/>}/>
             </Route>
+            <Route path="/health" element={<HealthCheck/>}/>
             <Route path="*" element={<Page404/>}/>
         </Routes>
         </BrowserRouter>
