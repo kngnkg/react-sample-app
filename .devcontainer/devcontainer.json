@@ -15,6 +15,7 @@
     "extensions": [
 		"xabikos.JavaScriptSnippets",
 		"oderwat.indent-rainbow",
-		"eamodio.gitlens"
+		"eamodio.gitlens",
+		"wmaurer.vscode-jumpy"
 	]
   }
